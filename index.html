@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Syncopate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-light" style="background: none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">JW Dev</a>
+          <button class="navbar-toggler" id="navbar-toggler"onclick="selectedOpen()" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" id="btn-close"class="btn-close text-reset" onclick="selectedOpen()" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                </li>        
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+          <section id="hero" class="hero_section">
+                <div class="container img-fluid">
+                    <div class="hero-section">
+                   <h1 data-aos="fade-down" data-aos-duration="1000">&lt;Joseph <span>Wallek</span> /&gt;</h1>
+                   <h5><span class="txt-type" data-wait="3000" 
+                   data-words='["Software&nbsp;Developer...", "Problem&nbsp;Solver...", "Lifelong&nbsp;Learner...", "Team&nbsp;Player..."]'>
+                  </span>
+                  </h5>   
+                </div>  
+            </div>
+          
+          <section class="about-me" id="about">
+            <div class="titles" data-aos="fade" data-aos-duration="1000"><h2>About</h2></div>
+              <div class="about-me-info" data-aos="flip-left" data-aos-duration="1000">
+                <p>
+                  Joseph is an aspiring junior Software Developer with experience in front-end development
+                  utilizing a tech stack that includes HTML, CSS, Javascript, React.js, SASS, 
+                  Bootstrap, and Git. Additionally, he has working knowledge of Python, Jupyter Notebook,
+                  Node.js, Express.js, and MongoDB. At the current moment, Joseph is attending University of London's online
+                  BSc Computer Science program, anticipating to graduate in 2023.
+                  <br>
+                  <br>
+                  For the previous 
+                  two summers, he had the opportunity to intern with The Spaceship Company (now Virgin Galactic) in 
+                  2020 and Virgin Galactic in 2021 as a Safety Intern, covering Vulnerability Management and Environmental Safety.
+                  Apart from Joseph's programming background and skillset, he portrays a tenacious work ethic
+                  that encompasses persistent attention to detail, keen passion for learning, being an active team player, and
+                  flexible adaptness to a changing envirnonment. 
+                </p>
+              </div>
+              <a href="RESUME_2022.pdf" target="_blank" style="text-decoration: none; font-size: 20px; margin-left:auto; margin-right: auto;" data-aos="fade-up" data-aos-duration="500"><button class="button"> RESUME <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+          </section>
+        </section>
+          <section style="background-color:rgb(47, 47, 47);" id="experience" class="experience_section">
+            <div class="titles" data-aos="fade" data-aos-duration="1000"><h2>Experience</h2></div>
+            <div class="container container-timeline">
+              
+                <div class="timeline">
+                    <ul>
+                        <li >
+                            <div class="timeline-content" data-aos="zoom-in-right" data-aos-duration="1000">
+                                <h2 class="date">June - August 2020</h2>
+                                <h5>Safety Intern - Vulnerability Management</h5>
+                                <h6>The Spaceship Company TSC</h6>
+                                <p>
+                                  Collaborated with the Vulnerability Management Team, researching 
+                                  various risk assessments, mitigations/remediation, and formulating 
+                                  action recommendations.
+                                </p>
+                            </div>
+                        </li>
+                        <li >
+                            <div class="timeline-content" data-aos="zoom-in-left" data-aos-duration="1000">
+                                <h2 class="date">June 2019 - May 2021</h2>
+                                <h5>Associates in Science Mathematics</h5>
+                                <h5>LAS in Mathematics and Sciences</h5>
+                                <h6>Antelope Valley College AVC</h6>
+                                <p>Honor Scholar, President's List, Summa Cum Laude, 3.78 GPA </p>
+                            </div>
+                        </li>
+                        <li >
+                            <div class="timeline-content" data-aos="zoom-in-right" data-aos-duration="1000">
+                                <h2 class="date">June - September 2021</h2>
+                                <h5>Safety Intern - Environmental Safety</h5>
+                                <h6>Virgin Galactic</h6>
+                                <p>
+                                  Collaborated with the Environmental Safety Team by contributing to a safety 
+                                  audit for both the Mojave and the Las Cruces offices. Additionally, I contributed 
+                                  to the research and assistance of implementing a safety reporting software system
+                                  known as Reliance. 
+                                </p>
+                            </div>
+                        </li>
+                        <li >
+                            <div class="timeline-content" data-aos="zoom-in-left" data-aos-duration="1000">
+                                <h2 class="date">October 2021 - Current</h2>
+                                <h5>BSc Computer Science</h5>
+                                <h6>University of London</h6>
+                                <p>
+                                  Currently working on my Level 5 Modules (junior year equivalence in the States)
+                                  with a specialization in Data Science.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col" data-aos="fade-down" data-aos-duration="500">
+            <div class="card">
+              <img src="./images/mockup.jpg" class="card-img-top" alt="..." style="object-fit: contain; padding: 10px;">
+              <div class="card-body">
+                <h5 class="card-title">E-Z Recipes</h5>
+                <p class="card-text">
+                  This is a recipe and blog website consisting of creating a small local database system where aria-label
+                  recipes are stored in a JSON file. These recipes could later be fetched and displayed on screen.
+                </p>
+                <div class="card-footer">
+                  <small class="text-muted" style="display: flex; align-items: center; justify-content: center;"><a href="https://sharedvyczgujl.labs.coursera.org/index.html" target="_blank" style="text-decoration: none; font-size: 20px;"><button class="button">LINK</button></a></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-up" data-aos-duration="500">
+            <div class="card">
+              <img src="./images/mockup2.jpg" class="card-img-top" alt="..." style="object-fit: contain; padding: 10px;">
+              <div class="card-body">
+                <h5 class="card-title">WB Yoga</h5>
+                <p class="card-text">WB Yoga, or Well Being Yoga, is mockup website for a yoga brand/company, utilizing HTML, CSS, Javascript,
+                  and Bootstrap.
+                </p>
+                <div class="card-footer">
+                  <small class="text-muted" style="display: flex; align-items: center; justify-content: center;"><a href="https://jwallek.github.io/WB_Yoga/" target="_blank" style="text-decoration: none; font-size: 20px;"><button class="button">LINK</button></a></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-down" data-aos-duration="500">
+            <div class="card">
+              <img src="./images/AdvisorBot.png" class="card-img-top" alt="..." style="object-fit: contain; padding: 10px;">
+              <div class="card-body">
+                <h5 class="card-title">Advisor Bot</h5>
+                <p class="card-text">Advisor bot is a command-line run program written in C++ 
+                  that provides users with data pertaining to the trade of currencies. Upon 
+                  the initialization of the program, a CSV file is parsed by the advisor bot, 
+                  extracting values for timestamps, products, order types, prices, and amounts. 
+                  Using this data, the program is able to run various functions such as calculating 
+                  statistical values that include minimum, maximum, and average values as well as 
+                  predicting values for future timestamps. 
+                  <br>
+                  <br>
+                  Click the link below to watch the video demonstration
+                  of the program.
+              </p>
+                <div class="card-footer">
+                  <small class="text-muted" style="display: flex; align-items: center; justify-content: center;"><a href="https://www.youtube.com/watch?v=DUZ4VrQ7lco" target="_blank" style="text-decoration: none; font-size: 20px;"><button class="button">LINK</button></a></small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <section class="contact" id="contact">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card socials" >
+              <div class="card-body" >
+                <h5 class="card-title" data-aos="fade-down" data-aos-duration="800">Find Me Here!</h5>
+                <a href="https://www.linkedin.com/in/joseph-wallek/" target="_blank" ><i class="fab fa-linkedin" data-aos="flip-down" data-aos-duration="1000"></i></a>
+                <a href="https://github.com/jwallek" target="_blank" ><i class="fab fa-github" data-aos="flip-down" data-aos-duration="1000"></i></a>
+                <br>
+                <h5 data-aos="fade-right" data-aos-duration="800"class="card-title" >Contact Me!</h5>
+                <div data-aos="fade-left" data-aos-duration="800"class="email-address" >jwallek@gmail.com</div>
+                <div data-aos="fade-up" data-aos-duration="800" class="phonenumber" >(661)-747-0495</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+      <script src="main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      
+</body>
+</html>
